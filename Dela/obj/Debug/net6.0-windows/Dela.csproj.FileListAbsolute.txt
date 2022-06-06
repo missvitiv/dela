@@ -1,0 +1,17 @@
+C:\Users\TechSupport2\source\repos\dela\Dela\bin\Debug\net6.0-windows\Dela.exe
+C:\Users\TechSupport2\source\repos\dela\Dela\bin\Debug\net6.0-windows\Dela.deps.json
+C:\Users\TechSupport2\source\repos\dela\Dela\bin\Debug\net6.0-windows\Dela.runtimeconfig.json
+C:\Users\TechSupport2\source\repos\dela\Dela\bin\Debug\net6.0-windows\Dela.dll
+C:\Users\TechSupport2\source\repos\dela\Dela\bin\Debug\net6.0-windows\Dela.pdb
+C:\Users\TechSupport2\source\repos\dela\Dela\obj\Debug\net6.0-windows\Dela.csproj.AssemblyReference.cache
+C:\Users\TechSupport2\source\repos\dela\Dela\obj\Debug\net6.0-windows\Dela.Form1.resources
+C:\Users\TechSupport2\source\repos\dela\Dela\obj\Debug\net6.0-windows\Dela.csproj.GenerateResource.cache
+C:\Users\TechSupport2\source\repos\dela\Dela\obj\Debug\net6.0-windows\Dela.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TechSupport2\source\repos\dela\Dela\obj\Debug\net6.0-windows\Dela.AssemblyInfoInputs.cache
+C:\Users\TechSupport2\source\repos\dela\Dela\obj\Debug\net6.0-windows\Dela.AssemblyInfo.cs
+C:\Users\TechSupport2\source\repos\dela\Dela\obj\Debug\net6.0-windows\Dela.csproj.CoreCompileInputs.cache
+C:\Users\TechSupport2\source\repos\dela\Dela\obj\Debug\net6.0-windows\Dela.dll
+C:\Users\TechSupport2\source\repos\dela\Dela\obj\Debug\net6.0-windows\refint\Dela.dll
+C:\Users\TechSupport2\source\repos\dela\Dela\obj\Debug\net6.0-windows\Dela.pdb
+C:\Users\TechSupport2\source\repos\dela\Dela\obj\Debug\net6.0-windows\Dela.genruntimeconfig.cache
+C:\Users\TechSupport2\source\repos\dela\Dela\obj\Debug\net6.0-windows\ref\Dela.dll
