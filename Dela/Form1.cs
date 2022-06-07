@@ -24,6 +24,7 @@ namespace Dela
                         // то авторизуемся
                         Form2 form2 = new Form2(); 
                         this.Hide();
+                        form2.Ispolnitel = polzovatel;
                         form2.ShowDialog();
                         this.Show();
                     }
@@ -44,6 +45,7 @@ namespace Dela
                     //авторизуемся
                     Form2 form2 = new Form2();                
                     this.Hide();
+                    form2.Ispolnitel = polzovatel;
                     form2.ShowDialog();
                     this.Show();
                 }

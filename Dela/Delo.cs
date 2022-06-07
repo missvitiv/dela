@@ -29,6 +29,39 @@ namespace Dela
             this.ispolnitel = "Maria";
             this.status = 1;
         }
+        public string getDeloOpisanie()
+        {
+            return this.opisanie; //геттер, возвращает описание дела
+        }
+        public DateTime getData()
+        {
+            return this.data; //геттер, возвращает дату
+        }
+        public string getIspolnitel()
+        {
+            return this.ispolnitel; //геттер, возвращает исполнителя
+        }
+        public int getStatus()
+        {
+            return this.status;//геттер, возвращает статус
+        }
+
+        public void setDeloOpisanie(string newDeloOpisanie)
+        {
+            this.opisanie = newDeloOpisanie; // сеттер, устанавливает новое описание
+        }
+        public void setDate(DateTime newData)
+        {
+            this.data = newData; // сеттер, устанавливает дату
+        }
+        public void setIspolnitel(string newIspolnitel)
+        { 
+            this.ispolnitel = newIspolnitel; // сеттер, устанавливает исполнителя
+        }
+        public void setStatus(int newStatus)
+        {
+            this.status = newStatus; // сеттер, устанавливает статус
+        }
 
     }
 }

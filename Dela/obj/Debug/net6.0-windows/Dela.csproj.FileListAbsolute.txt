@@ -16,3 +16,4 @@ C:\Users\TechSupport2\source\repos\dela\Dela\obj\Debug\net6.0-windows\Dela.pdb
 C:\Users\TechSupport2\source\repos\dela\Dela\obj\Debug\net6.0-windows\Dela.genruntimeconfig.cache
 C:\Users\TechSupport2\source\repos\dela\Dela\obj\Debug\net6.0-windows\ref\Dela.dll
 C:\Users\TechSupport2\source\repos\dela\Dela\obj\Debug\net6.0-windows\Dela.Form2.resources
+C:\Users\TechSupport2\source\repos\dela\Dela\obj\Debug\net6.0-windows\Dela.Form3.resources
