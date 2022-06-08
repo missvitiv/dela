@@ -22,9 +22,12 @@ namespace Dela
                     if (parol.Equals(parolfile)) //если введенный пароль эквивалентен прочитанному из файла
                     {
                         // то авторизуемся
+                        streamReader.Close();
                         Form2 form2 = new Form2(); 
                         this.Hide();
                         form2.Ispolnitel = polzovatel;
+                        form2.Parol = parolfile;
+                        form2.ZagruzitDela();
                         form2.ShowDialog();
                         this.Show();
                     }
@@ -41,11 +44,12 @@ namespace Dela
                 {
                     StreamWriter streamWriter = new StreamWriter(fileStream);
                     streamWriter.AutoFlush = true;
-                    streamWriter.WriteLine(textBox2.Text);
+                    streamWriter.Close();
                     //авторизуемся
                     Form2 form2 = new Form2();                
                     this.Hide();
                     form2.Ispolnitel = polzovatel;
+                    form2.Parol = parol;
                     form2.ShowDialog();
                     this.Show();
                 }
