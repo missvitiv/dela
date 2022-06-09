@@ -17,8 +17,7 @@ namespace Dela
             InitializeComponent();
         }
         //глобальные переменные
-        Delo tek_delo = new Delo(); // текущее дело
-        List<Delo> ListDel = new List<Delo>(); // лист с делами
+        List<Delo> ListDel = new List<Delo>(); // лист с всеми делами
         public string Ispolnitel; // исполнитель, под которым вошли
         public string Parol; // пароль, под которым вошли
 
@@ -43,7 +42,7 @@ namespace Dela
         }
         private void otbrazit_dela()
         {
-            //очищаем списки и заполняем их заново
+            //очищаем списки и заполняем их заново - метод
             listBox1.Items.Clear(); // список новые 
             listBox2.Items.Clear(); // список делаю 
             listBox3.Items.Clear(); // список готово 
@@ -82,7 +81,7 @@ namespace Dela
 
         private void button3_Click(object sender, EventArgs e)
         {
-            // дело в процессе  переместить в завершенное
+            // дело в процессе  переместить в готово
             if (listBox2.SelectedItem.ToString() != null) // если выбрана строка списка
             {
                 String vibrDelo = listBox2.SelectedItem.ToString(); // берем текст выбранного пункта
@@ -116,7 +115,7 @@ namespace Dela
                 otbrazit_dela(); //перезаполняем списки
             }
         }
-        private void Form2_FormClosing(object sender, FormClosingEventArgs e)
+        private void Form2_FormClosing(object sender, FormClosingEventArgs e) //когда программа закрывается
         {
             SohranitDela();
         }
@@ -127,18 +126,19 @@ namespace Dela
             using (FileStream fileStream = new FileStream(file, FileMode.Open))
             {
                 StreamWriter streamWriter = new StreamWriter(fileStream);
-                streamWriter.AutoFlush = true;
+                //streamWriter.AutoFlush = true;
                 streamWriter.WriteLine(Parol); // Пароль для входа
                 streamWriter.WriteLine(ListDel.Count);//записываем число дел, нужно при чтении
                 foreach (Delo delo in ListDel)
                 {
-                    if (delo.getDeloOpisanie() == "") continue; //не записываем, если вдруг есть пустые дела 
+                    if (delo.getDeloOpisanie() == "" || delo.getDeloOpisanie() == null) continue; //не записываем, если вдруг есть пустые дела 
                     streamWriter.WriteLine(delo.getDeloID());
                     streamWriter.WriteLine(delo.getDeloOpisanie());
                     streamWriter.WriteLine(delo.getData());
                     streamWriter.WriteLine(delo.getIspolnitel());
                     streamWriter.WriteLine(delo.getStatus());
                 }
+                streamWriter.Flush();
                 streamWriter.Close();
             }
         }

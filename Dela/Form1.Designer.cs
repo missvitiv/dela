@@ -81,7 +81,6 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(170, 23);
             this.textBox1.TabIndex = 4;
-            this.textBox1.Text = "Maria";
             // 
             // textBox2
             // 
@@ -89,7 +88,6 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(170, 23);
             this.textBox2.TabIndex = 5;
-            this.textBox2.Text = "123";
             // 
             // label3
             // 
@@ -110,6 +108,7 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Name = "Form1";
+            this.Text = "Регистрация";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -21,7 +21,7 @@ namespace Dela
         {
 
         }
-        //что бы можно было вытащить из предыдущей формы данные из этой
+        //что бы можно было вытащить из формы с делами данные из этой формы
         //https://www.cyberforum.ru/windows-forms/thread110436.html#a_Q2
         public string Opisanie
         {
